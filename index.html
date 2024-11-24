@@ -8,10 +8,8 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            text-align: center;
-
-            
-
+            text-align: center; /* Center-align text */
+        }
         nav {
             background-color: #333;
             padding: 10px;
@@ -21,23 +19,20 @@
             padding: 0;
         }
         nav ul li {
-            display:inline;
+            display: inline;
             margin: 0 10px;
         }
-        nav ul lia a {
+        nav ul li a {
             color: white;
             text-decoration: none;
         }
-        
-
-
-
-
-
-
-        }
         h1, h2 {
             color: #333;
+        }
+        section {
+            max-width: 600px;
+            margin: auto;
+            text-align: left; /* Center section contents horizontally */
         }
         form {
             margin-bottom: 20px;
@@ -67,6 +62,13 @@
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
     <h1>Course and Teacher Management</h1>
     
     <section>
@@ -184,3 +186,4 @@
     </script>
 </body>
 </html>
+
