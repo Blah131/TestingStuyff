@@ -5,6 +5,8 @@ const { v4: uuidv4 } = require('uuid')
 const app = express();
 app.use(bodyParser.json());
 
+
+
 let teachers = [];
 let courses = [];
 
